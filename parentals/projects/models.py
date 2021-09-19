@@ -5,6 +5,7 @@ from django.db import models
 class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
+    categories = models.JSONField (default=list)
     goal = models.IntegerField()
     image = models.URLField()
     is_open = models.BooleanField()
@@ -29,3 +30,4 @@ class Pledge(models.Model):
         on_delete=models.CASCADE,
         related_name='supporter_pledges'
     )
+
