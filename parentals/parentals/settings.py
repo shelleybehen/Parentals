@@ -43,13 +43,14 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
 ]
 
+AUTH_USER_MODEL = 'users.CustomUser'
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
     'rest_framework.authentication.TokenAuthentication',
     ]
 }
 
-AUTH_USER_MODEL = 'users.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
