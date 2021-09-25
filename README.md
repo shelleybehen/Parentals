@@ -55,8 +55,7 @@ Screenshot demonstrating successful token being returned for https://intense-rid
 1. Navigate to https://intense-ridge-62272.herokuapp.com/projects/
 2. Enter project title, description, category, goal, image link, open status, date created and owner into the 'Content' field:
    {
- 
-  "title": "Help Betty with shopping",
+   "title": "Help Betty with shopping",
   "description": "Betty needs someone to take her grocery shopping.",
 	"categories": ["Help Needed"],
   "goal": 3,
