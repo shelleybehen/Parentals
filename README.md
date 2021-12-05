@@ -1,6 +1,8 @@
 # Parentals
 Django Rest Framework Project
 
+This is the backend of the Parentals Crowdfunding App
+
 Link to deployed project [https://intense-ridge-62272.herokuapp.com/projects/](https://intense-ridge-62272.herokuapp.com/projects/)
 
 ## Setup/Instructions
